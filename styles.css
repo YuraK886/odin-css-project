@@ -3,7 +3,10 @@ body {
 }
 
 .page {
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 /*Header Section*/
@@ -84,4 +87,91 @@ button {
     font-size: 12px;
     border-radius: 30px;
     padding: 10px 40px 10px 40px;
+}
+
+/* Second Section */
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.second-section-title {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.second-section-content {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+}
+
+.image {
+    border:5px solid #3882f6 ;
+    margin: auto;
+}
+
+.subtext {
+    text-align: center;
+}
+
+/* Third Section */ 
+
+.third-section {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.author {
+    font-size: 24px;
+    align-self: flex-end;
+    font-weight: bolder;
+}
+
+/* Forth Section */ 
+
+.forth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #3882f6;
+    padding: 25px 40px 25px 40px;
+    gap: 25px;
+    margin: auto;
+    color: #e5e7eb;
+    
+
+}
+
+.forth-sign-up-button button{
+    border: 1px solid white;
+}
+
+/* Footer Section */ 
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 20px;
+    color: #e5e7eb;
 }
